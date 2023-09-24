@@ -14,3 +14,12 @@
   padding: 0.5rem;
 
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: #cc444b;
+}

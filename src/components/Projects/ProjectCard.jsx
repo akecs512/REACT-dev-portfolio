@@ -2,10 +2,7 @@ function ProjectCard({ title, subtitle, items, reverse = false }) {
   const { icons, screenshot, screenshotAlt, pageLink, repoLink } = items;
   return (
     <div
-      className={`flex flex-col ${
-        reverse ? "md:flex-row-reverse" : "md:flex-row"
-      }`}
-    >
+      className={`flex flex-col gap-6 p-4 ${reverse ? "md:flex-row-reverse" : "md:flex-row" }`} >
       <div className="card w-96 h-50 bg-base-100">
         <div className="card-body">
           <div className="flex flex-col justify-center items-center gap-2">
@@ -24,7 +21,7 @@ function ProjectCard({ title, subtitle, items, reverse = false }) {
               ))}
             </div>
           </div>
-          <div className="card-actions p-6 justify-end">
+          <div className="card-actions p-6 mt-2 justify-end">
             <a href={pageLink} className="btn btn-primary bg-bitter">Link</a>
             <a href={repoLink} className="btn btn-primary bg-bitter">Repo</a>
           </div>
