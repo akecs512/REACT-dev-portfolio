@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+
 
 const styles = {
   navbarStyle: {
@@ -16,6 +16,8 @@ function Navbar() {
         <ul className="flex gap-4">
           <li>About Me</li>
           <li>Projects</li>
+          <li>Resume</li>
+          <li>Contact Me</li>
         </ul>
       </div>
     </div>

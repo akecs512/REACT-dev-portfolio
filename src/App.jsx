@@ -1,14 +1,20 @@
 import Header from "./components/Header";
-import Section from "./components/Section";
-import MyNavbar from "./components/Navbar";
+import Section from "./components/AboutMe";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+// import TechTools from "./components/TechTools";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <MyNavbar />
+      <Navbar />
       <Header />
-      <Section title="Adrienne's Page" subtitle="Stories of annoying sister" />
+      <Section />
+      <Projects />
+      {/* <TechTools /> */}
+      <Footer />
     </div>
   );
 }
