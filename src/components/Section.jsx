@@ -1,16 +1,11 @@
-import "../styles/Section.css";
-
-const styles = {
-  sectionStyles: {
-    background: "orange",
-  },
-};
-
-function Section() {
+function Section({ title, subtitle }) {
   return (
-    <section style={styles.sectionStyles} className="section">
-      <h2>Lorem Ipsum Dolor Sit Amet</h2>
-      <p>hello</p>
+    <section>
+      <h2>{title}</h2>
+      <p className="text-3xl font-bold text-antique bg-bitter">{subtitle}</p>
+      <p className="text-3xl font-bold text-antique bg-lilac">{subtitle}</p>
+      <p className="text-3xl font-bold text-antique bg-antique">{subtitle}</p>
+      <p className="text-3xl font-bold text-antique bg-russian">{subtitle}</p>
     </section>
   );
 }

@@ -1,19 +1,23 @@
-import "../styles/Header.css";
-
-const styles = {
-  headerStyle: {
-    background: "red",
-  },
-  headingStyle: {
-    fontSize: "100px",
-  },
-};
 function Header() {
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
-    </header>
+    <>
+      <img className="h-48 object-cover w-full py-4" src="./images/purplehex.jpeg" alt="logo" />
+    </>
   );
 }
+
+// .header {
+//   background: #b71775;
+//   height: 200px;
+//   background-image: url("../assets/images/fullLogo01.png");
+// }
+
+// .heading {
+//   margin: 0;
+//   padding-top: 75px;
+//   text-align: center;
+//   color: white;
+//   font-size: 3rem;
+// }
 
 export default Header;

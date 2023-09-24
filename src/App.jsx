@@ -1,13 +1,14 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+import MyNavbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <MyNavbar />
       <Header />
-      <Section />
+      <Section title="Adrienne's Page" subtitle="Stories of annoying sister" />
     </div>
   );
 }
