@@ -2,11 +2,12 @@ function Projects () {
     return (
       <div className="container mx-auto">
         <div className="grid grid-cols-2 grid-rows-3 gap-5">
+          {/* Travelogue Text Card */}
           <div className="card w-96 h-50 bg-base-100">
             <div className="card-body">
               <h2 className="card-title">Travelogue Project</h2>
               <p>Interactive Full-Stack Application</p>
-              <figure>
+              <figure className="icons-list h-10 p-1">
                 <img
                   className="h-10 p-1"
                   src="/src/assets/images/JSLogo.png"
@@ -32,10 +33,12 @@ function Projects () {
                   src="/src/assets/images/sequelizeLogo.png"
                   alt="Sequelize"
                 />
+
+                {/* Travelogue Image Card */}
               </figure>
               <div className="card-actions p-4 justify-end">
-                <button className="btn btn-primary">Link</button>
-                <button className="btn btn-primary">Repo</button>
+                    <button className="btn btn-primary bg-bitter">Link</button>
+                <button className="btn btn-primary bg-bitter">Repo</button>
               </div>
             </div>
           </div>
@@ -49,16 +52,18 @@ function Projects () {
             </figure>
           </div>
 
+          {/* WOD Image Card */}
           <div className="card w-96 h-50 bg-base-100">
             <figure>
               <img
                 className="object-cover h-50"
                 src="/src/assets/images/WOD.png"
-                alt="travelogue"
+                alt="WOD"
               />
             </figure>
           </div>
 
+          {/* WOD Text Card */}
           <div className="card w-96 h-50 bg-base-100">
             <div className="card-body">
               <h2 className="card-title">Wheels of Date Night Project</h2>
@@ -96,24 +101,17 @@ function Projects () {
                 />
               </figure>
               <div className="card-actions p-4 justify-end">
-                <button className="btn btn-primary">Link</button>
-                <button className="btn btn-primary">Repo</button>
+                <button className="btn btn-primary  bg-bitter">Link</button>
+                <button className="btn btn-primary  bg-bitter">Repo</button>
               </div>
             </div>
           </div>
-          <div className="card w-96 h-50 bg-base-100">
-            <figure>
-              <img
-                className="h-50 m-8 object-cover"
-                src="/src/assets/images/techblog.png"
-                alt="travelogue"
-              />
-            </figure>
-          </div>
+
+          {/* Tech Blog Text Card */}
           <div className="card w-96 h-50 bg-base-100">
             <div className="card-body">
-              <h2 className="card-title">Travelogue Project</h2>
-              <p>Interactive Full-Stack Application</p>
+              <h2 className="card-title">Tech-Blog Project</h2>
+              <p>MVC Application</p>
               <figure>
                 <img
                   className="h-10 p-1"
@@ -142,10 +140,20 @@ function Projects () {
                 />
               </figure>
               <div className="card-actions p-4 justify-end">
-                <button className="btn btn-primary">Link</button>
-                <button className="btn btn-primary">Repo</button>
+                <button className="btn btn-primary bg-bitter">Link</button>
+                <button className="btn btn-primary bg-bitter">Repo</button>
               </div>
             </div>
+          </div>
+          {/* Tech Blog Image Card */}
+          <div className="card w-96 h-50 bg-base-100">
+            <figure>
+              <img
+                className="h-50 m-8 object-cover"
+                src="/src/assets/images/techblog01.png"
+                alt="tech-blog"
+              />
+            </figure>
           </div>
         </div>
       </div>

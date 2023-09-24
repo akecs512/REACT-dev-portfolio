@@ -5,6 +5,7 @@ export default {
     container: {
       center: true,
     },
+    
     extend: {
       colors: {
         russian: "#462a67",
@@ -15,5 +16,7 @@ export default {
       },
     },
   },
+  
   plugins: [require("daisyui")],
 };
+
