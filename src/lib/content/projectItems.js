@@ -23,3 +23,15 @@ export const wodImages = {
   ]
   }
 
+export const techblogImages = {
+  screenshot: "/src/assets/images/techblog01.png",
+  screenshotAlt: "techblog",
+  icons: [
+    {path: "/src/assets/images/JSLogo.png", alt: "JS"},
+    {path: "/src/assets/images/handlebarsLogo.png", alt: "handlebars"},
+    {path: "/src/assets/images/nodejsLogo.png", alt: "nodejs"},
+    {path: "/src/assets/images/mysqlLogo.jpg", alt: "mySql"},
+    {path: "/src/assets/images/sequelizeLogo.png", alt: "Sequelize"},
+  ]
+}
+
