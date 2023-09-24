@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <section className="px-48 py-8">
-      <h1 className="underline-offset-8">About Me</h1>
+      <h1 className="underline-offset-8" id="aboutMe" >About Me</h1>
       <p className="text-lg text-antique py-4 leading-loose">
         Computers and art have always had significant influences on me. After
         completing my Bachelors in Visual Arts with an emphasis in art history

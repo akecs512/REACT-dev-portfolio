@@ -1,5 +1,3 @@
-
-
 const styles = {
   navbarStyle: {
     background: "purple",
@@ -14,10 +12,18 @@ function Navbar() {
       </div>
       <div className="navbar-end px-4">
         <ul className="flex gap-4">
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Resume</li>
-          <li>Contact Me</li>
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="src/assets/_Adrienne Kecskes Resume 2023.pdf">Resume</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
         </ul>
       </div>
     </div>

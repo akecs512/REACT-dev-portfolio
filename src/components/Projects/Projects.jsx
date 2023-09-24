@@ -8,7 +8,7 @@ import {
 function Projects() {
   return (
     <>
-      <h1 className="underline-offset-8">
+      <h1 className="underline-offset-8" id="projects">
         Featured Projects
       </h1>
       <div className="container mx-auto">
