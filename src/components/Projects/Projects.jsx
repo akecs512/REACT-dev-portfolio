@@ -1,5 +1,9 @@
 import ProjectCard from "./ProjectCard";
-import { techblogImages, travelogueImages, wodImages } from "../../lib/content/projectItems";
+import {
+  techblogImages,
+  travelogueItems,
+  wodImages,
+} from "../../lib/content/projectItems";
 
 function Projects() {
   return (
@@ -7,22 +11,21 @@ function Projects() {
       <ProjectCard
         title="Travelogue Application"
         subtitle="Interactive Full-Stack Application"
-        images={travelogueImages}
+        items={travelogueItems}
       />
       <ProjectCard
         title="Wheels of Date Night Application"
         subtitle="Node.js Application"
-        images={wodImages}
+        items={wodImages}
         reverse
       />
-      <ProjectCard 
+      <ProjectCard
         title="Tech-Blog Application"
         subtitle="Node.js Application"
-        images={techblogImages}
+        items={techblogImages}
       />
     </div>
-  )
+  );
 }
-
 
 export default Projects;

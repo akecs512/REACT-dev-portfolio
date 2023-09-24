@@ -1,5 +1,5 @@
-function ProjectCard({ title, subtitle, images, reverse = false }) {
-  const { icons, screenshot, screenshotAlt } = images;
+function ProjectCard({ title, subtitle, items, reverse = false }) {
+  const { icons, screenshot, screenshotAlt, pageLink, repoLink } = items;
   return (
     <div
       className={`flex flex-col ${
@@ -25,8 +25,8 @@ function ProjectCard({ title, subtitle, images, reverse = false }) {
             </div>
           </div>
           <div className="card-actions p-6 justify-end">
-            <button className="btn btn-primary bg-bitter">Link</button>
-            <button className="btn btn-primary bg-bitter">Repo</button>
+            <a href={pageLink} className="btn btn-primary bg-bitter">Link</a>
+            <a href={repoLink} className="btn btn-primary bg-bitter">Repo</a>
           </div>
         </div>
       </div>
