@@ -6,7 +6,7 @@ const styles = {
 };
 function Navbar() {
   return (
-    <div className="navbar bg-russian">
+    <div className="navbar bg-primary h-400">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-xl">Adrienne Kecskes</a>
       </div>

@@ -5,7 +5,14 @@
 :root {
   color: white;
 }
+.hero {
+  background-color: #f6ebdb
 
+}
+
+.navbar {
+  height: 100px;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -22,4 +29,18 @@ h1 {
   font-weight: bold;
   text-decoration-line: underline;
   text-decoration-color: #cc444b;
+}
+
+.Typewriter {
+  display: inline-block;
+}
+
+.Typewriter__wrapper {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Typewriter__cursor {
+  font-size: xx-large;
+  font-weight: bold;
 }
