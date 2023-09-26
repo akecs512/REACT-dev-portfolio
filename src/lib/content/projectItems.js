@@ -4,7 +4,7 @@ export const travelogueItems = {
   icons: [
     { path: "/src/assets/images/JSLogo.png", alt: "JS" },
     { path: "/src/assets/images/handlebarsLogo.png", alt: "handlebars" },
-    { path: "/src/assets/images/nodejsLogo.png", alt: "nodejs" },
+    { path: "/src/assets/images/icons/skills/nodejswhite.png", alt: "nodejs" },
     { path: "/src/assets/images/mysqlLogo.jpg", alt: "mySql" },
     { path: "/src/assets/images/sequelizeLogo.png", alt: "Sequelize" },
   ],
@@ -17,11 +17,11 @@ export const wodImages = {
   screenshotAlt: "WOD",
   icons: [
     { path: "/src/assets/images/JSLogo.png", alt: "JS" },
-    { path: "/src/assets/images/htmlLogo.jpeg", alt: "html" },
-    { path: "/src/assets/images/cssLogo.png", alt: "css" },
-    { path: "/src/assets/images/materializeLogo.jpeg", alt: "materialize" },
+    { path: "/src/assets/images/icons/skills/html.png", alt: "html" },
+    { path: "/src/assets/images/icons/skills/css.png", alt: "css" },
+    { path: "/src/assets/images/icons/skills/materialize.png", alt: "materialize" },
     { path: "/src/assets/images/spoonLogo.png", alt: "spoonacular" },
-    { path: "/src/assets/images/movieLogo.jpeg", alt: "movieDB" },
+    { path: "/src/assets/images/tmdb.png", alt: "movieDB" },
   ],
   pageLink: "https://esbev.github.io/project-1-collab/",
   repoLink: "https://github.com/akecs512/Wheels-of-Date-Night",
@@ -33,7 +33,7 @@ export const techblogImages = {
   icons: [
     { path: "/src/assets/images/JSLogo.png", alt: "JS" },
     { path: "/src/assets/images/handlebarsLogo.png", alt: "handlebars" },
-    { path: "/src/assets/images/nodejsLogo.png", alt: "nodejs" },
+    { path: "/src/assets/images/icons/skills/nodejswhite.png", alt: "nodejs" },
     { path: "/src/assets/images/mysqlLogo.jpg", alt: "mySql" },
     { path: "/src/assets/images/sequelizeLogo.png", alt: "Sequelize" },
   ],
