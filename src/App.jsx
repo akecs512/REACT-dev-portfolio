@@ -6,17 +6,17 @@ import Skills from "./components/Skills";
 // import TechTools from "./components/TechTools";
 import Footer from "./components/Footer";
 import "./App.css";
+import { Outlet } from "react-router-dom";
+
+  
 
 function App() {
   return (
     <>
       <Navbar />
-      <Header />
-      <AboutMe />
-      <Projects />
-      <Skills />
-      {/* <TechTools /> */}
-      <Footer />
+      <Outlet />
+
+      {/* <Footer /> */}
     </>
   );
 }

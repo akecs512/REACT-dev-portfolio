@@ -1,3 +1,9 @@
+// import {
+//   languagesItems,
+//   frameworksItems,
+//   toolsItems,
+// } from "./src/lib/content/skillsItems.js";
+
 function Skills() {
   return (
     <>
@@ -6,15 +12,28 @@ function Skills() {
           Skills
         </h1>
         <div>
-          <h4 className="text-lg text-antique py-4 leading-loose">
+          <p className="text-lg text-antique py-4 leading-loose">
             These are some major languages, tools, and platforms I have
             experience with:
-          </h4>
+          </p>
         </div>
         {/* Languages */}
         <div>
           <h3>Languages & Databases</h3>
-          <div className="icons-list h-30 p-1 flex">
+          </div>
+            <div className="icons-list h-30 p-1 flex">
+            {/* <div className="icons-list h-30 p-1 flex">
+              {languagesItems.icon.map((icon, index) => (
+                <img
+                  className="h-10 p-1"
+                  src={icon.path}
+                  alt={icon.alt}
+                  key={index}
+                />
+              ))} */}
+              {/* <p>{icon.title}</p> */}
+            {/* </div> */}
+
             <div>
               <img
                 className="flex h-20 p-1"
@@ -59,9 +78,12 @@ function Skills() {
               <p>MongoDB</p>
             </div>
           </div>
+          
+
           {/* Frameworks */}
           <div>
             <h3>Frameworks & Technologies</h3>
+            </div>
             <div className="icons-list h-30 p-1 flex">
               <div>
                 <img
@@ -88,9 +110,10 @@ function Skills() {
                 <p>Handlebars.js</p>
               </div>
             </div>
+
             {/* Tools */}
             <div>
-              <h3>Tools</h3>
+              <h3>Tools</h3></div>
               <div className="icons-list h-30 p-1 flex">
                 <div>
                   <img
@@ -110,9 +133,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+      
     </>
   );
 }

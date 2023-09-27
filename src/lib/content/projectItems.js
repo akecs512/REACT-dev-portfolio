@@ -10,6 +10,8 @@ export const travelogueItems = {
   ],
   pageLink: "https://travelogue-application-10ca673e5794.herokuapp.com/",
   repoLink: "https://github.com/akecs512/Travelogue-application",
+  tags: ["Node.js", "JavaScript", "Handlebars.js", "MySQL", "Sequelize"],
+  bodyText: "- Interactive Full-Stack Application made made in JavaScript\n - Interactive application that travelers log into to save destinations, dates, and notes about their travels.\n  -Collaborative poject.",
 };
 
 export const wodImages = {
@@ -25,6 +27,7 @@ export const wodImages = {
   ],
   pageLink: "https://esbev.github.io/project-1-collab/",
   repoLink: "https://github.com/akecs512/Wheels-of-Date-Night",
+  tags: ["HTML", "CSS", "JavaScript", "Materialize", "Spoonacular API", "TMDB API"],
 };
 
 export const techblogImages = {
@@ -39,4 +42,5 @@ export const techblogImages = {
   ],
   pageLink: "https://tech-blog-app-mvc-446a1fb32162.herokuapp.com/",
   repoLink: "https://github.com/akecs512/MVC-tech-blog",
+  tags: ["Node.js", "Express.js", "Handlebars.js", "MySQL", "Sequelize"],
 };
