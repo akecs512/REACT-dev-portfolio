@@ -13,7 +13,7 @@ function Skills() {
         </h1>
         <div>
           <p className="text-lg text-antique py-4 leading-loose">
-            These are some major languages, tools, and platforms I have
+            These are some major languages,platforms, amd tools I have
             experience with:
           </p>
         </div>

@@ -1,8 +1,12 @@
+import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
+
 export const AboutPage = () => {
     return (
         <>
         <div className="container-fluid">
-        <h1>About Me</h1>
+        <div><AboutMe/></div>
+        <div><Skills/></div>
 
 
         </div>
