@@ -35,12 +35,15 @@ function Skills() {
             {/* </div> */}
 
             <div>
+              <figure>
               <img
                 className="flex h-20 p-1"
                 src="src/assets/images/icons/skills/html.png"
                 alt="html"
               />
-              <p>HTML</p>
+              <figcaption>HTML</figcaption>
+              </figure>
+             
             </div>
 
             <div>

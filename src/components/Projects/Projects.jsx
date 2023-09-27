@@ -4,31 +4,39 @@ import {
   travelogueItems,
   wodImages,
 } from "../../lib/content/projectItems";
+import AltProjectCard from "./AltProjectCard";
 
 function Projects() {
   return (
     <>
       <h1 className="underline-offset-8" id="projects">
-        Featured Projects
+        Projects
       </h1>
-      <div className="container mx-auto">
-        <ProjectCard
+
+      <div className="grid grid-cols-3 auto-rows-max py-6">
+      <div className="col">
+        <AltProjectCard
           title="Travelogue Application"
           subtitle="Interactive Full-Stack Application"
           items={travelogueItems}
         />
-        <ProjectCard
+        </div>
+        <div className="col">
+        <AltProjectCard
           title="Wheels of Date Night Application"
           subtitle="Node.js Application"
           items={wodImages}
-          reverse
         />
-        <ProjectCard
+        </div>
+        <div className="col">
+        <AltProjectCard
           title="Tech-Blog Application"
           subtitle="MVC Application"
           items={techblogImages}
         />
+        </div>
       </div>
+    
     </>
   );
 }
