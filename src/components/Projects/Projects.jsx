@@ -13,7 +13,7 @@ function Projects() {
         Projects
       </h1>
 
-      <div className="grid grid-cols-3 auto-rows-max py-6">
+      <div className="grid grid-cols-3 auto-rows-max gap-4 py-6">
       <div className="col">
         <AltProjectCard
           title="Travelogue Application"

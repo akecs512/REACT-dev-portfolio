@@ -2,7 +2,7 @@ function AboutMe() {
   return (
     <>
     <h1>About Me</h1>
-      <div className="card lg:card-side bg-base-100">
+      <div className="card my-10 lg:card-side bg-base-100">
         <figure>
           <img
             className="meImage "

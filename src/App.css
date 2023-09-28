@@ -25,10 +25,12 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 2px;
-  font-size: 2rem;
+  font-size: 40px;
   font-weight: bold;
-  text-decoration-line: underline;
-  text-decoration-color: #cc444b;
+  background-color: #007ba7;
+  font-family: "Rowdies";
+  
+  
 }
 
 .Typewriter {
@@ -48,4 +50,18 @@ h1 {
 .meImage {
   height: 100;
   width: 100;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 20px
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: xx-large;
+}
+
+.header-title {
+  background-color: transparent;
 }

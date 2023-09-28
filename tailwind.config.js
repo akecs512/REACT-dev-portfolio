@@ -8,6 +8,12 @@ export default {
   
 
     extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        rowdies: ["Rowdies", "cursive"],
+        poppins: ["Poppins", "sans-serif"],
+        
+      },
       //   colors: {
       //     russian: "#462a67",
       //     cerulean: "#007ba7",

@@ -1,7 +1,8 @@
+import Header from "../components/Header";
 export const HomePage = () => {
   return (
     <>
-      <h1>Home</h1>
+     <Header/>
     </>
   );
 };
