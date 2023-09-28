@@ -9,7 +9,7 @@ import AltProjectCard from "./AltProjectCard";
 function Projects() {
   return (
     <>
-      <h1 className="underline-offset-8" id="projects">
+      <h1 className="mb-4" id="projects">
         Projects
       </h1>
 

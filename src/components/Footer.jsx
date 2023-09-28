@@ -1,44 +1,45 @@
-function Footer() {
+function Footer () {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded" id="contact">
-      <nav className="grid grid-flow-col gap-2">
-        <div className="p-1">
-          <img
-            className="h-10 p-1"
-            src="/src/assets/images/phoneIcon.png"
-            alt="phone icon"
-          />
-          <a className="link link-hover">Phone</a>
-        </div>
-        <div className="p-1">
-          <img
-            className="h-10 "
-            src="/src/assets/images/emailIcon.png"
-            alt="email icon"
-          />
-          <a className="link link-hover">Email</a>
-        </div>
-      </nav>
-      <nav>
-        <div className="grid grid-flow-col gap-4">
-          <div className="p-1">
-            <img
-              className="h-10 p-1"
-              src="/src/assets/images/LinkedinLogo.png"
-              alt="phone icon"
-            />
+    <>
+      <footer className="footer mt-16 items-center p-4 bg-neutral text-neutral-content">
+        <aside className="items-center grid-flow-col">
+         <p className="text-2xl font-bold pl-4">Contact Me</p>
+        </aside>
+        <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          <div className="flex items-center h-10">
+            <div>
+              <img
+                className="footer-icon"
+                src="src/assets/images/phoneIcon.png"
+                alt="phone"
+              />
+            </div>
+            <div>
+              <img
+                className="footer-icon"
+                src="/src/assets/images/contact/emailicon.png"
+                alt="email"
+              />
+            </div>
+            <div>
+              <img
+                className="footer-icon"
+                src="/src/assets/images/contact/LinkedinLogo.png"
+                alt="LinkedIn"
+              />
+            </div>
+
+            <div  >
+              <img
+                className="footer-icon"
+                src="public/githubLogo.png"
+                alt="github"
+              />
+            </div>
           </div>
-          <div className="p-1">
-            <img
-              className="h-10 p-1"
-              src="/src/assets/images/githubLogo.png"
-              alt="phone icon"
-            />
-          </div>
-        </div>
-      </nav>
-    </footer>
-  );
-}
+        </nav>
+      </footer>
+    </>
+  );}
 
 export default Footer;

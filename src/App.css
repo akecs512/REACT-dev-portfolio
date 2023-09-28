@@ -10,9 +10,7 @@
 
 }
 
-.navbar {
-  height: 100px;
-}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -64,4 +62,16 @@ h3 {
 
 .header-title {
   background-color: transparent;
+}
+
+.footer {
+  height: 75px;
+
+}
+
+.footer-icon {
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin: 10px
 }
