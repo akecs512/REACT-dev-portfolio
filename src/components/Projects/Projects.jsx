@@ -14,29 +14,49 @@ function Projects() {
       </h1>
 
       <div className="grid grid-cols-3 auto-rows-max gap-4 py-6">
-      <div className="col">
-        <AltProjectCard
-          title="Travelogue Application"
-          subtitle="Interactive Full-Stack Application"
-          items={travelogueItems}
-        />
+        <div className="col">
+          <AltProjectCard
+            title="Travelogue Application"
+            subtitle="Interactive Full-Stack Application"
+            items={travelogueItems}
+          />
         </div>
         <div className="col">
-        <AltProjectCard
-          title="Wheels of Date Night Application"
-          subtitle="Node.js Application"
-          items={wodImages}
-        />
+          <AltProjectCard
+            title="Wheels of Date Night Application"
+            subtitle="Node.js Application"
+            items={wodImages}
+          />
         </div>
         <div className="col">
-        <AltProjectCard
-          title="Tech-Blog Application"
-          subtitle="MVC Application"
-          items={techblogImages}
-        />
+          <AltProjectCard
+            title="Tech-Blog Application"
+            subtitle="MVC Application"
+            items={techblogImages}
+          />
+        </div>
+        <div className="col">
+          <AltProjectCard
+            title="Travelogue Application"
+            subtitle="Interactive Full-Stack Application"
+            items={travelogueItems}
+          />
+        </div>
+        <div className="col">
+          <AltProjectCard
+            title="Wheels of Date Night Application"
+            subtitle="Node.js Application"
+            items={wodImages}
+          />
+        </div>
+        <div className="col">
+          <AltProjectCard
+            title="Tech-Blog Application"
+            subtitle="MVC Application"
+            items={techblogImages}
+          />
         </div>
       </div>
-    
     </>
   );
 }
