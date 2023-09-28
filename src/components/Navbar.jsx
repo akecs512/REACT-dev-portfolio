@@ -37,7 +37,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="public/images/nameLogoWhite.png"
+                    src="/images/nameLogoWhite.png"
                     alt="Adrienne Kecskes"
                   />
                 </div>

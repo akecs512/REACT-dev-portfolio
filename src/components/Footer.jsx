@@ -32,7 +32,7 @@ function Footer () {
             <div  >
               <img
                 className="footer-icon"
-                src="public/githubLogo.png"
+                src="/githubLogo.png"
                 alt="github"
               />
             </div>
