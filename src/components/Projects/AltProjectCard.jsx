@@ -3,19 +3,20 @@ function AltProjectCard ({ title, items }) {
 
   return (
     <>
-      
       <div className="card flex bg-base-100 p-2">
         <figure>
           <img src={screenshot} alt={screenshotAlt} />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}!</h2>
-          <p>
-            "- Interactive Full-Stack Application made made in JavaScript\n -
-            Interactive application that travelers log into to save
-            destinations, dates, and notes about their travels.\n -Collaborative
-            poject."
-          </p>
+          <ul className="list-disc">
+            <li>Interactive Full-Stack Application made made in JavaScript</li>
+            <li>
+              Travelers log in to save destinations, dates, and notes about
+              their travels.
+            </li>
+            <li>Collaborative poject</li>
+          </ul>
           <div className="card-actions p-6 mt-2 justify-end">
             <a href={pageLink} className="btn btn-primary bg-bitter">
               Link
