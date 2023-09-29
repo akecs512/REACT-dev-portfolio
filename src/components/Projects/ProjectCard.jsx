@@ -1,40 +1,31 @@
-function ProjectCard({ title, subtitle, items, reverse = false }) {
-  const { icons, screenshot, screenshotAlt, pageLink, repoLink } = items;
+function ProjectCard ({ title, items }) {
+  const { screenshot, screenshotAlt, pageLink, repoLink, bodyText,tags } = items;
+
   return (
-    <div
-      className={`flex flex-col gap-6 p-4 ${reverse ? "md:flex-row-reverse" : "md:flex-row" }`} >
-      <div className="card w-96 h-50 bg-base-100">
+    <>
+      <div className="card flex bg-base-100 p-2 w-82 shadow-sm shadow-slate-600 rounded-md">
+        <figure>
+          <img src={screenshot} alt={screenshotAlt} />
+        </figure>
         <div className="card-body">
-          <div className="flex flex-col justify-center items-center gap-2">
-            <div className="flex flex-col items-center">
-              <h2 className="card-title">{title}</h2>
-              <p>{subtitle}</p>
-            </div>
-            <div className="icons-list h-10 p-1 flex">
-              {icons.map((icon, index) => (
-                <img
-                  className="h-10 p-1"
-                  src={icon.path}
-                  alt={icon.alt}
-                  key={index}
-                />
-              ))}
-            </div>
-          </div>
+          <h2 className="card-title">{title}</h2>
+          <ul className="list-disc"> {bodyText}</ul>
+
           <div className="card-actions p-6 mt-2 justify-end">
-            <a href={pageLink} className="btn btn-primary bg-bitter">Link</a>
-            <a href={repoLink} className="btn btn-primary bg-bitter">Repo</a>
+            <a href={pageLink} className="btn btn-primary bg-bitter">
+              Link
+            </a>
+            <a href={repoLink} className="btn btn-primary bg-bitter">
+              Repo
+            </a>
+          </div>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">{tags}</div>
+            
           </div>
         </div>
       </div>
-
-      <img
-        className="card w-96 h-50 bg-base-100 object-cover"
-        src={screenshot}
-        alt={screenshotAlt}
-      />
-    </div>
+    </>
   );
 }
-
 export default ProjectCard;

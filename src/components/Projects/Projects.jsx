@@ -1,10 +1,9 @@
-import ProjectCard from "./ProjectCard";
 import {
-  techblogImages,
+  techblogItems,
   travelogueItems,
-  wodImages,
+  wodItems,
 } from "../../lib/content/projectItems";
-import AltProjectCard from "./AltProjectCard";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
@@ -15,45 +14,45 @@ function Projects() {
 
       <div className="grid grid-cols-3 auto-rows-max gap-4 py-6 px-10">
         <div className="col">
-          <AltProjectCard
+          <ProjectCard
             title="Travelogue Application"
             subtitle="Interactive Full-Stack Application"
             items={travelogueItems}
           />
         </div>
         <div className="col">
-          <AltProjectCard
-            title="Night Application"
-            subtitle="Node.js Application"
-            items={wodImages}
-          />
-        </div>
-        <div className="col">
-          <AltProjectCard
-            title="Tech-Blog Application"
-            subtitle="MVC Application"
-            items={techblogImages}
-          />
-        </div>
-        <div className="col">
-          <AltProjectCard
-            title="Travelogue Application"
-            subtitle="Interactive Full-Stack Application"
-            items={travelogueItems}
-          />
-        </div>
-        <div className="col">
-          <AltProjectCard
+          <ProjectCard
             title="Wheels of Date Night Application"
             subtitle="Node.js Application"
-            items={wodImages}
+            items={wodItems}
           />
         </div>
         <div className="col">
-          <AltProjectCard
+          <ProjectCard
             title="Tech-Blog Application"
             subtitle="MVC Application"
-            items={techblogImages}
+            items={techblogItems}
+          />
+        </div>
+        <div className="col">
+          <ProjectCard
+            title="Travelogue Application"
+            subtitle="Interactive Full-Stack Application"
+            items={travelogueItems}
+          />
+        </div>
+        <div className="col">
+          <ProjectCard
+            title="Wheels of Date Night Application"
+            subtitle="Node.js Application"
+            items={wodItems}
+          />
+        </div>
+        <div className="col">
+          <ProjectCard
+            title="Tech-Blog Application"
+            subtitle="MVC Application"
+            items={techblogItems}
           />
         </div>
       </div>

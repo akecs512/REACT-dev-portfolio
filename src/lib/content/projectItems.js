@@ -14,7 +14,7 @@ export const travelogueItems = {
   bodyText: "- Interactive Full-Stack Application made made in JavaScript\n - Travelers log into to save destinations, dates, and notes about their travels\n  -Collaborative poject",
 };
 
-export const wodImages = {
+export const wodItems = {
   screenshot: "/src/assets/images/WOD.png",
   screenshotAlt: "WOD",
   icons: [
@@ -31,7 +31,7 @@ export const wodImages = {
   bodyText: "Interactive front-end application made in JavaScript\n - Users can search for a dish and movie combination for their next date night using spinning wheels\n - Collaborative project",
 };
 
-export const techblogImages = {
+export const techblogItems = {
   screenshot: "/src/assets/images/techblog01.png",
   screenshotAlt: "techblog",
   icons: [

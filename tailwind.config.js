@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "src/**/*.{html,js,jsx,ts,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+
   theme: {
     container: {
       center: true,
     },
-  
 
     extend: {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         rowdies: ["Rowdies", "cursive"],
         poppins: ["Poppins", "sans-serif"],
-        
       },
       //   colors: {
       //     russian: "#462a67",
@@ -41,5 +43,5 @@ export default {
       },
     ],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), ("tw-elements/dist/plugin.cjs")],
 };
