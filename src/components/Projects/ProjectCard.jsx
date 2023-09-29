@@ -1,4 +1,4 @@
-function ProjectCard ({ title, items }) {
+function ProjectCard ({ title, items, subtitle}) {
   const { screenshot, screenshotAlt, pageLink, repoLink, bodyText,tags } = items;
 
   return (
@@ -9,6 +9,7 @@ function ProjectCard ({ title, items }) {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
+          <h3 className="card-subtitle">{subtitle}</h3>
           <ul className="list-disc"> {bodyText}</ul>
 
           <div className="card-actions p-6 mt-2 justify-end">

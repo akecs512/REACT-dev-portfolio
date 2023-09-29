@@ -90,3 +90,15 @@ h3 {
   display: flex;
   margin: 10px
 }
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding: 0;
+}

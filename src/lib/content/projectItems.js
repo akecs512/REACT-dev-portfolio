@@ -11,7 +11,7 @@ export const travelogueItems = {
   pageLink: "https://travelogue-application-10ca673e5794.herokuapp.com/",
   repoLink: "https://github.com/akecs512/Travelogue-application",
   tags: ["Node.js", "JavaScript", "Handlebars.js", "MySQL", "Sequelize"],
-  bodyText: "- Interactive Full-Stack Application made made in JavaScript\n - Travelers log into to save destinations, dates, and notes about their travels\n  -Collaborative poject",
+  bodyText: "- Travelers log into to save destinations, dates, and notes about their travels\n  -Collaborative poject",
 };
 
 export const wodItems = {
@@ -28,7 +28,7 @@ export const wodItems = {
   pageLink: "https://esbev.github.io/project-1-collab/",
   repoLink: "https://github.com/akecs512/Wheels-of-Date-Night",
   tags: ["HTML", "CSS", "JavaScript", "Materialize", "Spoonacular API", "TMDB API"],
-  bodyText: "Interactive front-end application made in JavaScript\n - Users can search for a dish and movie combination for their next date night using spinning wheels\n - Collaborative project",
+  bodyText: "- Users can search for a dish and movie combination for their next date night using spinning wheels\n - Collaborative project",
 };
 
 export const techblogItems = {
@@ -44,5 +44,25 @@ export const techblogItems = {
   pageLink: "https://tech-blog-app-mvc-446a1fb32162.herokuapp.com/",
   repoLink: "https://github.com/akecs512/MVC-tech-blog",
   tags: ["Node.js", "Express.js", "Handlebars.js", "MySQL", "Sequelize"],
-  bodyText: "A CMS style tech-blog\n - Users can create an account, post, edit, and comment on posts\n -MVC paradigm",
+  bodyText: "- Users can create an account, post, edit, and comment on posts\n -MVC paradigm",
+};
+export const weatherItems = {
+  screenshot: "/src/assets/images/weather.png",
+  screenshotAlt: "weather dashboard",
+  repoLink: "https://github.com/akecs512/SERVER-SIDE-API-weather-dashboard",
+  pageLink: "https://akecs512.github.io/SERVER-SIDE-API-weather-dashboard/",
+  tags: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+  bodyText:
+    "-A weather dashboard that displays the current weather and 5 day forecast for a searched city\n - Uses the OpenWeather API",
+};
+export const project3Items = {
+  screenshot: "Coming Soon",
+  screenshotAlt: "Coming Soon",
+  bodyText: "Coming Soon",
+}
+
+export const projectItems= {
+  screenshot: "Coming Soon",
+  screenshotAlt: "Coming Soon",
+  bodyText: "Coming Soon",
 };

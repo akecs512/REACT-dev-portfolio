@@ -2,6 +2,9 @@ import {
   techblogItems,
   travelogueItems,
   wodItems,
+  weatherItems,
+  project3Items,
+  projectItems,
 } from "../../lib/content/projectItems";
 import ProjectCard from "./ProjectCard";
 
@@ -30,29 +33,29 @@ function Projects() {
         <div className="col">
           <ProjectCard
             title="Tech-Blog Application"
-            subtitle="MVC Application"
+            subtitle="A CMS-style blog site"
             items={techblogItems}
           />
         </div>
         <div className="col">
           <ProjectCard
-            title="Travelogue Application"
-            subtitle="Interactive Full-Stack Application"
-            items={travelogueItems}
+            title="Weather Dashboard Application"
+            subtitle="Server-Side API Application"
+            items={weatherItems}
           />
         </div>
         <div className="col">
           <ProjectCard
-            title="Wheels of Date Night Application"
-            subtitle="Node.js Application"
-            items={wodItems}
+            title="Coming Soon!"
+            subtitle="Coming Soon!"
+            items={projectItems}
           />
         </div>
         <div className="col">
           <ProjectCard
-            title="Tech-Blog Application"
-            subtitle="MVC Application"
-            items={techblogItems}
+            title="Coming Soon!"
+            subtitle=""
+            items={project3Items}
           />
         </div>
       </div>
