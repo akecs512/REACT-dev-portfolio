@@ -1,20 +1,30 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useLocation } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "About", href: "about", current: false },
-  { name: "Projects", href: "projects", current: false },
-  { name: "Resume", href: "resume", current: false },
-  { name: "Contact", href: "contact", current: false },
+  { name: "About", href: "/about", current: false },
+  { name: "Projects", href: "/projects", current: false },
+  { name: "Resume", href: "/resume", current: false },
+  { name: "Contact", href: "/contact", current: false },
 ];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    navigation.forEach((item) => {
+      item.current = false;
+      if (item.href === pathname) {
+        item.current = true;
+      }
+    });
+  });
+
   return (
     <Disclosure as="nav" className="bg-primary">
       {({ open }) => (
@@ -62,9 +72,6 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              
-
-              
                 <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none ">
@@ -76,7 +83,7 @@ export default function Navbar() {
                       />
                     </Menu.Button>
                   </div>
-                   </Menu>
+                </Menu>
               </div>
             </div>
           </div>
