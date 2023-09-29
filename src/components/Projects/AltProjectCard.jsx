@@ -3,7 +3,7 @@ function AltProjectCard ({ title, items }) {
 
   return (
     <>
-      <div className="card flex bg-base-100 p-2">
+      <div className="card flex bg-base-100 p-2 w-82 shadow-sm shadow-slate-600">
         <figure>
           <img src={screenshot} alt={screenshotAlt} />
         </figure>

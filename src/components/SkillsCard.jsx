@@ -3,10 +3,10 @@ function SkillsCard ({items}) {
 
     return (
       <>
-        <div>
+        <div className="flex">
           {icons.map((icon, index) => (
             <img
-              className="h-10 p-1"
+              className="h-20 p-2"
               src={icon.path}
               alt={icon.alt}
               key={index}

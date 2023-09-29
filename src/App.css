@@ -50,14 +50,29 @@ h1 {
   width: 100;
 }
 
+.icon-list {
+  height: 30px;
+  margin: 10px 20px;
+  display: flex
+}
+
 p {
   font-family: "Poppins";
-  font-size: 20px
+  font-size: 20px;
+  padding: 20px;
 }
 
 h3 {
   font-family: "Poppins";
-  font-size: xx-large;
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+.skills-title {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-bottom: 20px;
+  
 }
 
 .header-title {

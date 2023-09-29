@@ -13,7 +13,7 @@ function Projects() {
         Projects
       </h1>
 
-      <div className="grid grid-cols-3 auto-rows-max gap-4 py-6">
+      <div className="grid grid-cols-3 auto-rows-max gap-4 py-6 px-10">
         <div className="col">
           <AltProjectCard
             title="Travelogue Application"
@@ -23,7 +23,7 @@ function Projects() {
         </div>
         <div className="col">
           <AltProjectCard
-            title="Wheels of Date Night Application"
+            title="Night Application"
             subtitle="Node.js Application"
             items={wodImages}
           />

@@ -1,4 +1,8 @@
-import { skillIcons } from "../lib/content/skillIcons.js";
+import {
+  skillIcons,
+  frameworkIcons,
+  toolsIcons,
+} from "../lib/content/skillIcons.js";
 import SkillsCard from "/src/components/SkillsCard.jsx";
 
 function Skills() {
@@ -9,19 +13,33 @@ function Skills() {
       </h1>
       <div className="container mx-auto">
         <div>
-          <h3 className="text-2xl text-antique py-4 leading-loose">
+          <h4 className="skills-title">
             These are some major languages, platforms, and tools I have
             experience with:
-          </h3>
+          </h4>
         </div>
         {/* Languages */}
         <div>
-          <h3>Languages & Databases</h3>
-          </div>
-          <div className="icons-list h-30 p-1 flex">         
-        <div>
-          <SkillsCard items={skillIcons} />
+          <h3>Languages</h3>
         </div>
+        <div className="flex flex-col justify justify-center items-center p-2">
+          <div className="icons-list pb-4">
+            <SkillsCard items={skillIcons} />
+          </div>
+          {/* Frameworks */}
+          <div>
+            <h3>Frameworks & Libraries</h3>
+          </div>
+          <div className="icons-list pt-1 pb-4">
+            <SkillsCard items={frameworkIcons} />
+          </div>
+          {/* Tools */}
+          <div>
+            <h3>Tools & Databases</h3>
+          </div>
+          <div className="icons-list">
+            <SkillsCard items={toolsIcons} />
+          </div>
         </div>
       </div>
     </>
