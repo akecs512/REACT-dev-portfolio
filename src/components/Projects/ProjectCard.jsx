@@ -1,5 +1,8 @@
-function ProjectCard ({ title, items, subtitle}) {
-  const { screenshot, screenshotAlt, pageLink, repoLink, bodyText,tags } = items;
+function ProjectCard({ title, items, subtitle }) {
+  const { screenshot, screenshotAlt, pageLink, repoLink, bodyText, tags } =
+    items;
+
+  console.log({ tags });
 
   return (
     <>
@@ -21,8 +24,12 @@ function ProjectCard ({ title, items, subtitle}) {
             </a>
           </div>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline">{tags}</div>
-            
+            {tags &&
+              tags.map((tag, index) => (
+                <div className="badge badge-outline" key={index}>
+                  {tag}
+                </div>
+              ))}
           </div>
         </div>
       </div>
