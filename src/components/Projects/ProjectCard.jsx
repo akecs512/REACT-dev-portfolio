@@ -1,8 +1,7 @@
 function ProjectCard({ title, items, subtitle }) {
   const { screenshot, screenshotAlt, pageLink, repoLink, bodyText, tags } =
     items;
-
-  console.log({ tags });
+console.log(bodyText)
 
   return (
     <>
@@ -13,7 +12,12 @@ function ProjectCard({ title, items, subtitle }) {
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
           <h3 className="card-subtitle">{subtitle}</h3>
-          <ul className="list-disc"> {bodyText}</ul>
+          {/* <ul className="list-disc">{bodyText}</ul> */}
+          <ul className="list-disc">
+            {bodyText && bodyText.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
 
           <div className="card-actions p-6 mt-2 justify-end">
             <a href={pageLink} className="btn btn-primary bg-bitter">
