@@ -12,11 +12,11 @@ export const ResumePage = () => {
       <div className="container">
         <div className="flex flex-col items-start">
           <button className="btn btn-accent my-4 ">
-            <a href="./public/Adrienne Kecskes Resume 2023.pdf">
+            <a href="/Adrienne Kecskes Resume 2023.pdf">
               Download My Resume
             </a>
           </button>
-          <Document file="./public/Adrienne Kecskes Resume 2023.pdf">
+          <Document file="/Adrienne Kecskes Resume 2023.pdf">
             <div className="flex flex-row">
               <Page
                 renderAnnotationLayer={false}

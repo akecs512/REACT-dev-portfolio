@@ -24,21 +24,21 @@ function Header() {
                 <div>
                   <img
                     className="flex h-20 p-1"
-                    src="/public/images/contact/LinkedinLogo.png"
+                    src="/images/contact/LinkedinLogo.png"
                     alt="LinkedIn"
                   />
                 </div>
                 <div>
                   <img
                     className="flex h-20 p-1"
-                    src="public/images/contact/githubLogo.png"
+                    src="/images/contact/githubLogo.png"
                     alt="github"
                   />
                 </div>
                 <div>
                   <img
                     className="flex h-20 p-1"
-                    src="public/images/contact/emailIcon.png"
+                    src="/images/contact/emailIcon.png"
                     alt="email"
                   />
                 </div>

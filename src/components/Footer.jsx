@@ -1,4 +1,3 @@
-import { footerItems } from "../lib/content/footerItems";
 function Footer() {
   return (
     <>
@@ -11,21 +10,21 @@ function Footer() {
             <a href="tel://5126533573">
               <img
                 className="footer-icon"
-                src="public/images/contact/phoneIcon.png"
+                src="/images/contact/phoneIcon.png"
                 alt="phone"
               />
             </a>
             <a href="mailto://akecs619@yahoo.com">
               <img
                 className="footer-icon"
-                src="public/images/contact/emailIcon.png"
+                src="/images/contact/emailIcon.png"
                 alt="email"
               />
             </a>
             <a href="https://www.linkedin.com/in/akecs/">
               <img
                 className="footer-icon"
-                src="public/images/contact/LinkedinLogo.png"
+                src="/images/contact/LinkedinLogo.png"
                 alt="LinkedIn"
               />
             </a>
@@ -33,7 +32,7 @@ function Footer() {
             <a href="https://github.com/akecs512">
               <img
                 className="footer-icon"
-                src="public/images/contact/githubLogo.png"
+                src="/images/contact/githubLogo.png"
                 alt="github"
               />
             </a>
