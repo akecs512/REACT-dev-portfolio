@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "src/**/*.{html,js,jsx,ts,tsx}",
-    "./node_modules/tw-elements-react/dist/js/**/*.js",
-  ],
+  content: ["src/**/*.{html,js,jsx,ts,tsx}"],
 
   theme: {
     container: {
@@ -43,5 +40,6 @@ export default {
       },
     ],
   },
-  plugins: [require("daisyui"), require("tw-elements-react/dist/plugin.cjs")],
+  // eslint-disable-next-line no-undef
+  plugins: [require("daisyui")],
 };
