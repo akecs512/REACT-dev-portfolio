@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function ProjectCard({ title, items, subtitle }) {
   const { screenshot, screenshotAlt, pageLink, repoLink, bodyText, tags } =
     items;
