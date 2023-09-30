@@ -25,7 +25,7 @@ function ProjectCard({ title, items, subtitle }) {
               Repo
             </a>
           </div>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-center">
             {tags &&
               tags.map((tag, index) => (
                 <div className="badge badge-outline" key={index}>

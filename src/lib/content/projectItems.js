@@ -1,3 +1,4 @@
+
 export const travelogueItems = {
   screenshot: "/images/Travelogue.png",
   screenshotAlt: "travelogue",
@@ -76,14 +77,20 @@ export const weatherItems = {
     "Uses the OpenWeather API",
   ],
 };
-export const project3Items = {
-  screenshot: "Coming Soon",
-  screenshotAlt: "Coming Soon",
-  bodyText: ["Coming Soon"],
+export const noteItems = {
+  screenshot: "/images/noteTaker.png",
+  screenshotAlt: "Note Taker",
+  bodyText: [
+    "A note taking app that saves notes to a JSON file",
+    "View, save, and delete notes",
+  ],
+  tags: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js"],
+  repoLink: "https://github.com/akecs512/EXPRESS-JS-note-taker",
+  pageLink: "https://adriennes-note-taker-app-3061299dc485.herokuapp.com/",
 };
 
 export const projectItems = {
-  screenshot: "Coming Soon",
-  screenshotAlt: "Coming Soon",
+  screenshot: "Project 3",
+  screenshotAlt: "Project 3",
   bodyText: ["Coming Soon"],
 };

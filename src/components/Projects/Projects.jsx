@@ -3,8 +3,8 @@ import {
   travelogueItems,
   wodItems,
   weatherItems,
-  project3Items,
   projectItems,
+  noteItems
 } from "../../lib/content/projectItems";
 import ProjectCard from "./ProjectCard";
 
@@ -46,16 +46,16 @@ function Projects() {
         </div>
         <div className="col">
           <ProjectCard
-            title="Coming Soon!"
-            subtitle="Coming Soon!"
-            items={projectItems}
+            title="Note Taker"
+            subtitle="Express.js Application"
+            items={noteItems}
           />
         </div>
         <div className="col">
           <ProjectCard
             title="Coming Soon!"
             subtitle=""
-            items={project3Items}
+            items={projectItems}
           />
         </div>
       </div>
