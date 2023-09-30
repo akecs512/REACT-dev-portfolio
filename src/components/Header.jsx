@@ -22,25 +22,31 @@ function Header() {
             <div>
               <div className="icons-list h-30 p-1 flex">
                 <div>
+                  <a href="https://www.linkedin.com/in/akecs/">
                   <img
                     className="flex h-20 p-1"
                     src="/images/contact/LinkedinLogo.png"
                     alt="LinkedIn"
                   />
+                  </a>
                 </div>
                 <div>
+                  <a href="https://github.com/akecs512">
                   <img
                     className="flex h-20 p-1"
                     src="/images/contact/githubLogo.png"
                     alt="github"
                   />
+                  </a>
                 </div>
                 <div>
+                  <a href="mailto:akecs619@yahoo.com">
                   <img
                     className="flex h-20 p-1"
                     src="/images/contact/emailIcon.png"
                     alt="email"
                   />
+                  </a>
                 </div>
               </div>
             </div>

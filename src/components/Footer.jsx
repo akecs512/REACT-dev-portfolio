@@ -14,7 +14,7 @@ function Footer() {
                 alt="phone"
               />
             </a>
-            <a href="mailto://akecs619@yahoo.com">
+            <a href="mailto:akecs619@yahoo.com">
               <img
                 className="footer-icon"
                 src="/images/contact/emailIcon.png"
