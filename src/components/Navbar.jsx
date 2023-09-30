@@ -78,7 +78,7 @@ export default function Navbar() {
                       <span className="absolute -inset-1.5" />
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="src/assets/images/headshot.png"
+                        src="/images/headshot.png"
                         alt="headshot"
                       />
                     </Menu.Button>

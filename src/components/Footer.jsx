@@ -11,27 +11,31 @@ function Footer() {
             <a href="tel://5126533573">
               <img
                 className="footer-icon"
-                src="src/assets/images/phoneIcon.png"
+                src="public/images/contact/phoneIcon.png"
                 alt="phone"
               />
             </a>
             <a href="mailto://akecs619@yahoo.com">
               <img
                 className="footer-icon"
-                src="/src/assets/images/contact/emailicon.png"
+                src="public/images/contact/emailIcon.png"
                 alt="email"
               />
             </a>
             <a href="https://www.linkedin.com/in/akecs/">
               <img
                 className="footer-icon"
-                src="/src/assets/images/contact/LinkedinLogo.png"
+                src="public/images/contact/LinkedinLogo.png"
                 alt="LinkedIn"
               />
             </a>
 
             <a href="https://github.com/akecs512">
-              <img className="footer-icon" src="/githubLogo.png" alt="github" />
+              <img
+                className="footer-icon"
+                src="public/images/contact/githubLogo.png"
+                alt="github"
+              />
             </a>
           </div>
         </nav>

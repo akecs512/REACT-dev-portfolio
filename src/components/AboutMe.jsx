@@ -1,14 +1,10 @@
 function AboutMe() {
   return (
     <>
-    <h1>About Me</h1>
+      <h1>About Me</h1>
       <div className="card my-10 lg:card-side bg-base-100">
         <figure>
-          <img
-            className="meImage "
-            src="/src/assets/images/meImage.jpeg"
-            alt="Me Image"
-          />
+          <img className="meImage " src="/images/meImage.jpeg" alt="Me Image" />
         </figure>
         <div className="card-body flex flex-col justify-center">
           {/* <h2 className="card-title">New album is released!</h2> */}
@@ -24,7 +20,6 @@ function AboutMe() {
           </p>
         </div>
       </div>
-  
     </>
   );
 }
