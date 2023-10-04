@@ -16,14 +16,14 @@
 A deployed React portfolio that includes an about me, projects, resume, and contact page.
 
 ## Usage
-A single-page application portfolio for a web developer. When the portfolio loads, the user is  presented with a page containing a header, a section for content, and a footer.
-When they view the navbar they are presented with the developer's name and navigation links with titles corresponding to different sections of the portfolio including About Me, Projects, Contact, and Resume, and the title corresponding to the current section is highlighted.
+A single-page application portfolio. When the portfolio loads, the user is  presented with a page containing a header, a section for content, and a footer.
+When they view the navbar they are presented with my name and navigation links with titles corresponding to different sections of the portfolio including About Me, Projects, Contact, and Resume, and the title corresponding to the current section is highlighted.
 When they click on a navigation title they are presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
-When they are presented with the About Me section they see an avatar of the developer and a short bio about them.
-When they are presented with the Projects section they see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository, as well as a short description and badges of the various technologies used.
+When they are presented with the About Me section they see an aboutme icon and a short bio about them.
+When they are presented with the Projects section they see titled images of six of my project applications with links to both the deployed applications and the corresponding GitHub repository, as well as a short description and badges of the various technologies used.
 When they are presented with the Contact section they see a contact form with fields for a name, an email address, and a message. When they move the cursor out of one of the form fields without entering text they receive a notification that this field is required. When they enter text into the email address field they receive a notification if they have entered an invalid email address.
-When they are presented with the Resume section they see a link to a downloadable resume and a pdf copy of it.
-When they view the footer they are presented with text or icon links to the developer’s GitHub and LinkedIn profiles.
+When they are presented with the Resume section they see an image of my resume and a link to download it.
+When they view the footer they are presented with text or icon links to mty GitHub and LinkedIn profiles.
 
 ## Screenshots
  <img width="1260" alt="Screen Shot 2023-09-30 at 5 35 56 PM" src="https://github.com/akecs512/pro-portfolio-REACT/assets/79340489/0a9c7272-e706-47d1-b2ef-0c888c43ea2d">
@@ -49,6 +49,7 @@ VS Code should recommend the following extensions:
   Thanks to Adamk72 for his help cleaning up the code and helping me make it work.
   
   Some icons were provided by  <a target="_blank" href="https://icons8.com">Icons8</a>, <a href="https://www.flaticon.com/">flaticon.com</a>, and <a href="https://techicons.dev/">techicons.dev</a> .
+<a href="https://www.flaticon.com/free-animated-icons/worried" title="worried animated icons">Worried animated icons created by Freepik - Flaticon</a>
 
 ## License
 
