@@ -111,3 +111,23 @@ h3 {
   background-color: #f6ebdb;
   color: black
 }
+
+.worried {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  justify-content: start;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+.border {
+  border: 30px solid #cc444b;
+  border-style: groove;
+  margin: 8%;
+  padding: 0 60px 40px 60px;
+  justify-content: center;
+}
