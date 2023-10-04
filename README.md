@@ -9,6 +9,7 @@
     - [Styling](#styling)
     - [VSCode Extensions](#VSCode-extensions)
     - [Package json Scripts](#Package-json-scripts)
+- [Technologies Used](#technologies-used)
 - [Special Thanks](#special-thanks)
 - [License](#license)
 
@@ -44,6 +45,10 @@ VS Code should recommend the following extensions:
 - Code Spell Checker
 - React JS Snippets (even though this not a React project, the `clg` snippet is just too useful not to have)
 
+### Technologies Used
+-React
+-Tailwind CSS
+-DaisyUI
 
 ### Special Thanks
   Thanks to Adamk72 for his help cleaning up the code and helping me make it work.
