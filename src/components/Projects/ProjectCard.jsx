@@ -5,7 +5,7 @@ function ProjectCard({ title, items, subtitle }) {
 
   return (
     <>
-      <div className="card flex bg-base-100 p-2 w-82 shadow-sm shadow-slate-600 rounded-md">
+      <div className="card bg-base-200 p-2 basis-1/3 shadow-sm shadow-slate-600 rounded-md">
         <figure>
           <img src={screenshot} alt={screenshotAlt} />
         </figure>
