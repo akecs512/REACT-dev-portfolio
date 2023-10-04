@@ -84,13 +84,13 @@ export const noteItems = {
     "A note taking app that saves notes to a JSON file",
     "View, save, and delete notes",
   ],
-  tags: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js"],
+  tags: ["HTML", "CSS", "JavaScript", "Express.js", "Node.js", "Day.js"],
   repoLink: "https://github.com/akecs512/EXPRESS-JS-note-taker",
   pageLink: "https://adriennes-note-taker-app-3061299dc485.herokuapp.com/",
 };
 
 export const projectItems = {
-  screenshot: "Project 3",
+  screenshot: "/images/comingsoon.jpeg",
   screenshotAlt: "Project 3",
   bodyText: ["Coming Soon"],
 };

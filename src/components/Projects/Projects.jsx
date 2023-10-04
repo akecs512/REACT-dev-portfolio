@@ -31,12 +31,17 @@ function Projects() {
           />
         </div>
         <div className="col">
+          <ProjectCard title="Coming Soon!" subtitle="" items={projectItems} />
+        </div>
+        
+        <div className="col">
           <ProjectCard
             title="Tech-Blog Application"
             subtitle="A CMS-style blog site"
             items={techblogItems}
           />
         </div>
+
         <div className="col">
           <ProjectCard
             title="Weather Dashboard Application"
@@ -49,13 +54,6 @@ function Projects() {
             title="Note Taker"
             subtitle="Express.js Application"
             items={noteItems}
-          />
-        </div>
-        <div className="col">
-          <ProjectCard
-            title="Coming Soon!"
-            subtitle=""
-            items={projectItems}
           />
         </div>
       </div>
