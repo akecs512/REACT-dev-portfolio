@@ -66,6 +66,8 @@ h3 {
   font-family: "Poppins";
   font-size: x-large;
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
 
 }
 
