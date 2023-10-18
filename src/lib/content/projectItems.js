@@ -90,7 +90,11 @@ export const noteItems = {
 };
 
 export const projectItems = {
-  screenshot: "/images/comingsoon.jpeg",
-  screenshotAlt: "Project 3",
-  bodyText: ["Coming Soon"],
+  screenshot: "/gitFit.png",
+  screenshotAlt: "Git Fit",
+  bodyText: ["A fitness tracker that allows users to track their workouts", "Includes a dashboard that displays workout data in a chart and a Bmi calculator", "Collaborative project"],
+  tags: ["React", "Express.js", "Node.js", "MongoDB", "Mongoose", "Chart.js", "Tailwind CSS", "DaisyUI", "Heroku"],
+  repoLink: "https://github.com/akecs512/REACT-dev-portfolio",
+  pageLink:"https://akecs-dev-portfolio.netlify.app/",
+
 };
