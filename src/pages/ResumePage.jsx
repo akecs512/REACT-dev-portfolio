@@ -11,8 +11,9 @@ export const ResumePage = () => {
           </button>
         </div>
         <div className="px-20 mx-20">
-        < img src="/ResumePage1.png" alt="resume page 1" />
-        <img src="/ResumePage2.png" alt="resume page 2" />
+          <img src="/ResumePage1.png" alt="resume page 1" />
+          <img src="/ResumePage2.png" alt="resume page 2" />
+          <img src="/ResumePage3.png" alt="resume page 3" />
         </div>
       </div>
     </>
