@@ -21,9 +21,7 @@ export const AboutPage = () => {
             After completing my Bachelors in Visual Arts with an emphasis in art
             history and criticism, I decided to combine my interests by taking
             courses in graphic arts, and recently decided to take my computer
-            skills to the next level by learning software development. I am
-            advancing my knowledge and experience in computer coding through a
-            University of Texas bootcamp.
+            skills to the next level by learning software development. I recently completed the University of Texas Full Stack Coding Bootcamp and expanded my knowledge and experience in computer coding. I am excited to continue to learn and grow as a developer.
           </p>
         </div>
       </div>
