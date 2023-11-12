@@ -16,6 +16,16 @@
   margin: 10px 0;;
 }
 
+.about-image {
+  padding: 20px;
+  align-items: center;
+}
+
+.about-card {
+  display: flex;
+  padding: 20px;
+}
+
 .divider {
   font-size: 30px;
   display: flex;

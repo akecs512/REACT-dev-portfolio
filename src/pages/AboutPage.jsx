@@ -9,11 +9,12 @@ export const AboutPage = () => {
   return (
     <>
       <h1>About Me</h1>
-      <div className="card my-10 lg:card-side bg-base-100">
-        <figure>
-          <img className="meImage " src="/images/meImage.jpeg" alt="Me Image" />
-        </figure>
-        <div className="card-body flex flex-col justify-center">
+      <div className="about-card flex my-10 lg:card-side bg-base-100">
+      <figure className="about-image">
+          <img src="/images/meImage.jpeg" alt="Me Image" />
+          </figure>
+   
+        <div className="about-card-body flex flex-col justify-center pr-50px">
           {/* <h2 className="card-title">New album is released!</h2> */}
           <p>
             {" "}
