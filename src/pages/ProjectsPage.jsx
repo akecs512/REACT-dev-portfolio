@@ -14,8 +14,8 @@ function ProjectsPage() {
       <h1 className="mb-4" id="projects">
         Projects
       </h1>
-      <h3 className="text-4xl pt-8 text-accent">
-        ----Collaborative Projects----
+      <h3 className="divider text-4xl pt-8 text-accent">
+        Collaborative Projects
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
         <ProjectCard
@@ -28,9 +28,13 @@ function ProjectsPage() {
           subtitle="Node.js Application"
           items={wodItems}
         />
-        <ProjectCard title="Coming Soon!" subtitle="" items={projectItems} />
+        <ProjectCard
+          title="Git-Fit Fitness Tracker"
+          subtitle="MERN Stack Application"
+          items={projectItems}
+        />
       </div>
-      <h3 className="text-4xl pt-8 text-accent">----Personal Projects----</h3>
+      <h3 className="divider text-4xl pt-8 text-accent">Personal Projects</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
         <ProjectCard
           title="Tech-Blog Application"

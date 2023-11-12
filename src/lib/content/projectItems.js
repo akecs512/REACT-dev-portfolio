@@ -90,7 +90,7 @@ export const noteItems = {
 };
 
 export const projectItems = {
-  screenshot: "/gitFit.png",
+  screenshot: "/images/gitFit.png",
   screenshotAlt: "Git Fit",
   bodyText: ["A fitness tracker that allows users to track their workouts", "Includes a dashboard that displays workout data in a chart and a Bmi calculator", "Collaborative project"],
   tags: ["React", "Express.js", "Node.js", "MongoDB", "Mongoose", "Chart.js", "Tailwind CSS", "DaisyUI", "Heroku"],

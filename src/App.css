@@ -9,6 +9,29 @@
   background-color: #f6ebdb
 
 }
+.card-image{
+  height: 200px;
+  width: 380px;
+  object-fit: fill;
+  margin: 10px 0;;
+}
+
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: red;
+  margin: 5px;
+}
+
+
+
 
 
 .container {
@@ -94,9 +117,18 @@ h3 {
   margin: 10px
 }
 
+.card-text {
+  /* height: 300px; */
+}
+
 .card-title {
   display: flex;
   justify-content: center;
+  height: 50px;
+  /* flex: 1; */
+  /* align-items: bottom; */
+  /* align-content: bottom; */
+  position: relative
 }
 
 .card-subtitle {
@@ -104,7 +136,35 @@ h3 {
   justify-content: center;
   font-size: large;
   padding: 0;
+  height: 50px;
+  align-items: top;
+  /* padding: 10px; */
+  /* flex: 1; */
+  position: relative
 }
+
+.list-disc {
+/* flex: 1; */
+height: 150px;
+padding-left: 35px;
+padding-right: 20px;
+padding-top: 4px;
+}
+
+.card-actions {
+  height: 75px;
+}
+
+.card-body {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0;
+  flex-basis: 80px;
+}
+
+
 
 .input {
   align-self: center;
@@ -130,4 +190,8 @@ h3 {
   margin: 8%;
   padding: 0 60px 40px 60px;
   justify-content: center;
+}
+
+.card {
+  height: 750px
 }

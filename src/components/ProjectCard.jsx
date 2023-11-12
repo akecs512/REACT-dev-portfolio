@@ -7,16 +7,18 @@ function ProjectCard({ title, items, subtitle }) {
     <>
       <div className="card bg-base-200 p-2 basis-1/3 shadow-sm shadow-slate-600 rounded-md">
         <figure>
-          <img src={screenshot} alt={screenshotAlt} />
+          <img className="card-image" src={screenshot} alt={screenshotAlt} />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">{title}</h2>
-          <h3 className="card-subtitle">{subtitle}</h3>
+        <div className="card-body flex">
+          <div className="card-text">
+          <h2 className="card-title text-center">{title}</h2>
+          <h3 className="card-subtitle text-center">{subtitle}</h3>
           {/* <ul className="list-disc">{bodyText}</ul> */}
-          <ul className="list-disc">
+          <ul className="list-disc pb-4">
             {bodyText &&
               bodyText.map((item, index) => <li key={index}>{item}</li>)}
           </ul>
+          </div>
 
           <div className="card-actions p-6 mt-2 justify-end">
             <a href={pageLink} className="btn btn-primary bg-bitter">
