@@ -32,8 +32,8 @@ export const wodItems = {
     { path: "/images/spoonLogo.png", alt: "spoonacular" },
     { path: "/images/tmdb.png", alt: "movieDB" },
   ],
-  pageLink: "https://wheelsofdatenight.netlify.app/",
-  repoLink: "https://github.com/akecs512/Wheels-of-Date-Night",
+  pageLink: "https://akecs512.github.io/JS-Wheels-of-Date-Night/",
+  repoLink: "https://github.com/akecs512/JS-Wheels-of-Date-Night",
   tags: [
     "HTML",
     "CSS",
