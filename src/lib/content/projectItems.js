@@ -58,7 +58,7 @@ export const techblogItems = {
     { path: "/images/mysqlLogo.jpg", alt: "mySql" },
     { path: "/images/sequelizeLogo.png", alt: "Sequelize" },
   ],
-  pageLink: "https://akecs512.github.io/JS-Wheels-of-Date-Night/",
+  pageLink: "https://tech-blog-app-mvc-446a1fb32162.herokuapp.com/",
   repoLink: "https://github.com/akecs512/MVC-tech-blog",
   tags: ["Node.js", "Express.js", "Handlebars.js", "MySQL", "Sequelize"],
   bodyText: [
