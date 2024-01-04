@@ -32,7 +32,7 @@ export const wodItems = {
     { path: "/images/spoonLogo.png", alt: "spoonacular" },
     { path: "/images/tmdb.png", alt: "movieDB" },
   ],
-  pageLink: "https://esbev.github.io/project-1-collab/",
+  pageLink: "https://wheelsofdatenight.netlify.app/",
   repoLink: "https://github.com/akecs512/Wheels-of-Date-Night",
   tags: [
     "HTML",
@@ -95,6 +95,6 @@ export const projectItems = {
   bodyText: ["A fitness tracker that allows users to track their workouts", "Includes a dashboard that displays workout data in a chart and a Bmi calculator", "Collaborative project"],
   tags: ["React", "Express.js", "Node.js", "MongoDB", "Mongoose", "Chart.js", "Tailwind CSS", "DaisyUI", "Heroku"],
   repoLink: "https://github.com/akecs512/REACT-dev-portfolio",
-  pageLink:"https://akecs-dev-portfolio.netlify.app/",
+  pageLink:"https://enigmatic-garden-97881-5a06f2d72820.herokuapp.com/",
 
 };
