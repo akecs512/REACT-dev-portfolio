@@ -58,7 +58,7 @@ export const techblogItems = {
     { path: "/images/mysqlLogo.jpg", alt: "mySql" },
     { path: "/images/sequelizeLogo.png", alt: "Sequelize" },
   ],
-  pageLink: "https://tech-blog-app-mvc-446a1fb32162.herokuapp.com/",
+  pageLink: "https://akecs512.github.io/JS-Wheels-of-Date-Night/",
   repoLink: "https://github.com/akecs512/MVC-tech-blog",
   tags: ["Node.js", "Express.js", "Handlebars.js", "MySQL", "Sequelize"],
   bodyText: [
@@ -94,7 +94,7 @@ export const projectItems = {
   screenshotAlt: "Git Fit",
   bodyText: ["A fitness tracker that allows users to track their workouts", "Includes a dashboard that displays workout data in a chart and a Bmi calculator", "Collaborative project"],
   tags: ["React", "Express.js", "Node.js", "MongoDB", "Mongoose", "Chart.js", "Tailwind CSS", "DaisyUI", "Heroku"],
-  repoLink: "https://github.com/akecs512/REACT-dev-portfolio",
+  repoLink: "https://github.com/akecs512/Git-Fit-Fitness-Tracker",
   pageLink:"https://enigmatic-garden-97881-5a06f2d72820.herokuapp.com/",
 
 };
