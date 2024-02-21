@@ -18,11 +18,9 @@ export const AboutPage = () => {
           {/* <h2 className="card-title">New album is released!</h2> */}
           <p>
             {" "}
-            Computers and art have always had significant influences on me.
-            After completing my Bachelors in Visual Arts with an emphasis in art
-            history and criticism, I decided to combine my interests by taking
-            courses in graphic arts, and recently decided to take my computer
-            skills to the next level by learning software development. I recently completed the University of Texas Full Stack Coding Bootcamp and expanded my knowledge and experience in computer coding. I am excited to continue to learn and grow as a developer.
+            I am a tech-savvy, art-loving, design-obsessed. go-getter who doesn’t like to not know the answer to a question. If you want to know what I mean by any of these very generic and vague hyphenated terms, ask me in the phone and/or video interview (hint hint). As for my skills, I just finished up a full-stack coding bootcamp from the University of Texas,Austin, so my CSS, HTML, and Javascript knowledge is up to date and as fresh was a baby’s bum! I also have a BA in Visual Arts:Art History/ Criticism from UCSD that is a couple decades old, but I still consider my passion for the arts as vibrant as a Henri Matisse painting. And somewhere in between by BA and bootcamp, I also took classes in graphic design, but alas was not able to complete the program for a certificate, but learned a lot about design and adobe creative cloud. 
+            I have an eclectic range of skills and passions that I strive to constantly improve on. I am very friendly and get along with just about everyone.
+
           </p>
         </div>
       </div>
